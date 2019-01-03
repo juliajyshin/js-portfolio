@@ -1,4 +1,6 @@
-/* CSS Variables */
+/* --------------------- */
+/*     CSS Variables     */
+/* --------------------- */
 :root {
   --primary: #000;
   --dark: #ec482e;
@@ -15,9 +17,10 @@ body {
     background: #fff; 
     margin: 30px 90px;
     line-height: 1.4;
+    
 }
 
-/* Navigation */
+/* navigation */
 .main-nav a {
   text-decoration: none;
   color: var(--primary);
@@ -38,26 +41,10 @@ body {
 
 .main-nav li {
   display: inline;
-  padding-right: 1.3rem;
+  padding-right: 1.3em;
 }
 
-/* .contact-info ul {
-  float:left;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.contact-info li {
-  display: inline;
-  padding-right: 1.3rem;
-  font-size: 18px;
-  margin: auto;
-} */
-
-
-
-/* Site Title */
+/* site title */
 .site-title a {
   float: right;
   padding: 0;
@@ -78,279 +65,7 @@ body {
   color: var(--dark);
 }
 
-/* HEADER */
-/* Header • index.html */
-.top-container-main {
-  padding: 150px 200px;
-  clear: left;
-}
-
-/* Header • aboutme.html */
-.top-container-sub {
-  padding: 150px 10px 50px 10px;
-}
-
-.statement {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 24px;
-  text-align: center;
-  line-height: 2.3em;
-}
-
-
-/* Portfolio Grid Layout */
-
-
-img {
-  max-width: 100%;
-  box-shadow: var(--shadow);
-}
-
-.wrapper {
-  display: grid;
-  grid-gap: 1em;
-  padding: 0 10px;
-  margin: auto;
-  
-}
-
-.wrapper-main {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1em;
-  grid-auto-rows: minmax(100px, auto);
-}
-
-.box {
-  text-align: center;
-  padding: 1.5rem 2rem;
-}
-
-
-/* Header  */
-
-.showcase {
-  
-    min-height: 500px;
-    background: url(/images/apple-1.png);
-    background-size: cover;
-    background-position: center;
-    /* padding: 3rem; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-shadow: var(--shadow);
-
-}
-
-.portfolio-picture {
-  
-  min-height: 500px;
-  background: url(/images/portfolio-picture.png);
-  background-size: cover;
-  background-position: center;
-  /* padding: 3rem; */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  box-shadow: var(--shadow);
-
-}
-
-
-/* Introduction */
-
-.introduction {
-  display: grid;
-  grid-template-columns: 70% 30%;
-  grid-gap: 1em;
-  padding: 0 10px;
-}
-
-/* about me • overview */
-.about-me {
-  display: grid;
-  grid-template-columns: 40% 55%;
-  grid-gap: 2.5em;
-  padding: 0 10px;
-}
-
-/* Project Titles */
-.project-title {
-  padding: 0 10px;
-}
-
-/* profile pic */
-.profile-pic {
-  background: url(/images/portfolio-picture.png);
-  min-height: 500px;
-  background-size: cover;
-  background-position: center;
-  /* padding: 3rem; */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  box-shadow: var(--shadow);
-
-}
-
-
-/* Contact Info */
-.contact-me {
-  padding: 0 10px;
-  margin-top: 40px;
-}
-
-
-
-.contact-info {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  text-align: center;
-}
-
-.contact-info a {
-  text-decoration: underline;
-  color: var(--primary);
-  letter-spacing: 2px;
-
-
-}
-.contact-info h4 {
-  font-size: 18px;
-  font-weight: none !important;
-  line-height: 1em;
-}
-
-/* float: right;
-padding: 0;
-margin: 0; */
-
-/* Projects */
-.projects {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2em;
-  padding: 10px 10px 50px 10px;
-
-}
-
-.box1 {
-  background: url(/images/watch-us.png);
-  min-height: 500px;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  box-shadow: var(--shadow);
-}
-
-
-.box2 {
-  background: url(/images/watch-kr.png);
-  min-height: 500px;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  box-shadow: var(--shadow);
-}
-
-.box3 {
-  background: url(/images/watch-diff.png);
-  min-height: 500px;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  box-shadow: var(--shadow);
-}
-
-.nested {
-  display: grid;
-  grid-gap: 0.5em;
-
-}
-
-
-/* Nested Projects */
-
-.nested-projects {
-  display: grid;
-  grid-template-columns: 49% 49%;
-  grid-gap: 1em;
-  padding: 10px 10px 50px 10px;
-}
-
-.box4 {
-  box-shadow: var(--shadow);
-  min-height: 280px;
-  background-color: #e2dddd;
-}
-
-.box5 {
-  background: url(/images/music-us.png);
-  min-height: 280px;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  box-shadow: var(--shadow);
-}
-
-.box6 {
-  background: url(/images/music-kr.png);
-  min-height: 280px;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  box-shadow: var(--shadow);
-
-}
-
-.box7 {
-  background: url(/images/mac-us.png);
-  min-height: 280px;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  box-shadow: var(--shadow);
-}
-
-.box8 {
-  background: url(/images/mac-kr.png);
-  min-height: 280px;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  box-shadow: var(--shadow);
-}
-
-
-h2 {
-
-}
-
+/* paragraph styles */
 h3 {
   margin: 5px 0;
 }
@@ -368,3 +83,614 @@ p {
 li {
   line-height: 2.3em;
 }
+
+/* --------------------- */
+/*      INDEX.HTML       */
+/* --------------------- */
+/* header */
+.top-container-main {
+  padding: 120px 150px;
+  clear: left;
+}
+
+/* banner */
+.home-banner {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  line-height: 2.3em;
+}
+
+/* portfolio grid */
+
+.wrapper-main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+img {
+  max-width: 100%;
+  box-shadow: var(--shadow);
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 1em;
+  padding: 0 10px;
+  margin: auto;
+}
+
+.box {
+  text-align: center;
+  padding: 0.5em 1em;
+}
+
+/* ....................... */
+/*       media query       */
+
+/* Width at 768px and below */
+@media screen and (max-width: 768px) {
+  body {
+    margin: 30px 30px;
+    }
+
+    .wrapper-main {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 1em;
+      grid-auto-rows: minmax(100px, auto);
+    }
+   
+    .top-container-main {
+      padding: 70px 90px;
+      clear: left;
+    }
+
+    .box {
+      text-align: center;
+      padding: 0.5em 1em;
+    }
+  }
+  
+  /* Additional Screen Sizes */
+  /* Width at 400px and below */
+  @media screen and (max-width: 400px) {
+    body {
+      margin: 30px 30px;
+      }
+
+    .top-container-main {
+      padding: 20px 40px;
+      clear: left;
+    }
+
+    .wrapper-main {
+      display: grid;
+      grid-template-columns: 100%;
+      grid-gap: 1em;
+      grid-auto-rows: minmax(100px, auto);
+    }
+
+    .home-banner {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 18px;
+      text-align: center;
+      line-height: 2.3em;
+     }
+  }
+  
+/* --------------------- */
+/*       ABOUT.HTML      */
+/* --------------------- */
+/* overview */
+.about-me {
+  display: grid;
+  grid-template-columns:  40% 55%;
+
+  grid-gap: 2.3em;
+  /* display: grid;
+  grid-template-columns: 40% 55%;
+  padding: 0 10px; */
+  /* margin: auto; */
+}
+
+.about-info {
+  width: 90%;
+}
+
+/* contact */
+.icons {
+  max-height: 30px;
+  display: inline;
+  box-shadow: none;
+}
+
+.contact-me {
+  padding: 0 10px;
+  margin-top: 40px;
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.contact-info a {
+  text-decoration: underline;
+  color: var(--primary);
+  letter-spacing: 2px;
+}
+
+.contact-info h4 {
+  font-size: 18px;
+  font-weight: none !important;
+  line-height: 1em;
+}
+
+/* ....................... */
+/*       media query       */
+
+/* Width at 768px and below */
+@media screen and (max-width: 768px) {
+  body {
+    margin: 30px 30px;
+    
+    }
+
+
+/* .wrapper {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 1em;
+} */
+
+    .profile-pic {
+      display: grid;
+      grid-template-columns: 100%;
+      grid-gap: 1em;
+      
+    }
+
+    .about-me {
+      display: grid;
+      grid-template-columns: 100%;
+      grid-gap: 1em;
+      
+    }
+
+  
+  }
+  
+  /* Additional Screen Sizes */
+  /* Width at 400px and below */
+  @media screen and (max-width: 400px) {
+    body {
+      margin: 30px 30px;
+      }
+    }
+  
+
+
+/* --------------------- */
+/*      RESUME.HTML      */
+/* --------------------- */
+
+.education-icons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+}
+
+.schools {
+  box-shadow: var(--shadow);
+  /* background-color: #e2dddd; */
+  padding: 0.5em;
+}
+
+.schools {
+  text-align: center;
+  padding: 0.5em;
+}
+
+
+/* icons */
+
+
+.fab {
+  font-size: 3rem;
+  color: #525252;
+}
+.fas {
+  font-size: 1.2rem;
+  color: #525252;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+  text-align:center;
+}
+
+.tech-icons {
+  margin-top: 30px;
+  padding-top: 20px;
+  box-shadow: var(--shadow);
+}
+
+.tech-icons p {
+  color: #525252;
+}
+
+/* --------------------------------------------------------- */
+/* Import the Google Font 'Lato' */
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+/* Container styles */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: 'Lato';
+}
+
+.chart {
+  position: relative;
+  display: inline-block;
+  color: #999;
+  font-size: 20px;
+  text-align: center;  
+  margin: 10px 20px;
+}
+
+.chart figcaption {
+  padding: 50px 25px;
+  width: 100px;
+  height: 50px;
+  border: 20px solid #f0f0f0;
+  border-radius: 100px;
+  line-height: 50px;
+}
+
+.chart img {
+  position: absolute;
+  max-width: 100px;
+  max-height: 100px;
+  background: white;
+  box-shadow: none;
+}
+/* END Container styles */
+
+/* Colors for the circles and positions for the graphics */
+.html {
+  top: 50px;
+  left: 45px;
+}
+
+.html + svg .outer {
+  stroke: #e34f26;
+}
+
+.css {
+  top: 55px;
+  left: 48px;
+}
+
+.css + svg .outer {
+  stroke: #0d84ce;
+}
+
+.javascript {
+  max-width: 90px;
+  max-height: 90px;
+  top: 45px;
+  left: 45px;
+}
+
+.javascript + svg .outer {
+  stroke: #f0e040;
+}
+
+.node {
+  width: 200px;
+  height: 200px;
+  top: 45px;
+  left: 45px;
+}
+
+.node + svg .outer {
+  stroke: #83cd29;
+}
+
+.chart svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.outer {
+  fill: transparent;
+  stroke: #333;
+  stroke-width: 20;
+  stroke-dasharray: 534;
+  transition: stroke-dashoffset 1s;
+  -webkit-animation-play-state: running;
+  
+  /* firefox bug fix - won't rotate at 90deg angles */
+  -moz-transform: rotate(-89deg) translateX(-190px);
+}
+
+.chart:hover .outer {
+  stroke-dashoffset: 534 !important;
+  -webkit-animation-play-state: paused;
+}
+/* END Circle colors and graphic positions */
+
+
+/* Set the initial values for the animation */
+.chart[data-percent='100'] .outer {
+  stroke-dashoffset: 0;
+  -webkit-animation: show100 2s;
+  animation: show100 2s;
+}
+
+.chart[data-percent='75'] .outer {
+  stroke-dashoffset: 133;
+  -webkit-animation: show75 2s;
+  animation: show75 2s;
+}
+
+.chart[data-percent='50'] .outer {
+  stroke-dashoffset: 267;
+  -webkit-animation: show50 2s;
+  animation: show50 2s;
+}
+
+.chart[data-percent='25'] .outer {
+  stroke-dashoffset: 401;
+  -webkit-animation: show25 2s;
+  animation: show25 2s;
+}
+/* END set initial animation values */
+
+/* Keyframes for the initial animation */
+@-webkit-keyframes show100 {
+  from {
+    stroke-dashoffset: 537;
+  }
+  
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes show100 {
+  from {
+    stroke-dashoffset: 537;
+  }
+  
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@-webkit-keyframes show75 {
+  from {
+    stroke-dashoffset: 537;
+  }
+  
+  to {
+    stroke-dashoffset: 134;
+  }
+}
+
+@keyframes show75 {
+  from {
+    stroke-dashoffset: 537;
+  }
+  
+  to {
+    stroke-dashoffset: 124;
+  }
+}
+
+@-webkit-keyframes show50 {
+  from {
+    stroke-dashoffset: 537;
+  }
+  
+  to {
+    stroke-dashoffset: 267;
+  }
+}
+
+@keyframes show50 {
+  from {
+    stroke-dashoffset: 537;
+  }
+  
+  to {
+    stroke-dashoffset: 267;
+  }
+}
+
+@-webkit-keyframes show25 {
+  from {
+    stroke-dashoffset: 537;
+  }
+  
+  to {
+    stroke-dashoffset: 401;
+  }
+}
+
+@keyframes show25 {
+  from {
+    stroke-dashoffset: 537;
+  }
+  
+  to {
+    stroke-dashoffset: 401;
+  }
+}
+/* END Keyframes for the initial animation */
+
+
+/* --------------------- */
+/*      ALL PROJECTS     */
+/* --------------------- */
+
+/* header */
+.top-container-sub {
+  padding: 100px 10px 50px 10px;
+  clear: left;
+}
+
+/* project photo */
+.showcase-image {
+ margin-top: 30px;
+}
+
+/* project info */
+.introduction {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-gap: 1em;
+  padding: 0 10px;
+}
+
+/* project title */
+.project-title {
+  padding: 0 10px;
+}
+
+.second-title {
+  margin-top: 50px;
+}
+
+/* --------------------- */
+/*        projects       */
+/*    apple-ios12.html   */
+/* --------------------- */
+.project-apple {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+}
+
+.apple-watch {
+  text-align: center;
+  padding: 0.5em;
+}
+
+/* nested projects */
+.nested-projects-apple {
+  display: grid;
+  grid-template-columns: 49% 49%;
+  grid-gap: 1em;
+}
+
+.nested-apple {
+  display: grid;
+  grid-gap: 0.5em;
+}
+
+.boxed-apple {
+  box-shadow: var(--shadow);
+  background-color: #e2dddd;
+  padding: 1em;
+}
+
+.apple-web {
+  text-align: center;
+  padding: 0.5em;
+}
+
+
+/* ....................... */
+/*       media query       */
+
+/* Width at 768px and below */
+@media screen and (max-width: 768px) {
+body {
+  margin: 30px 30px;
+  }
+  .introduction {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 1em;
+    padding: 0 10px;
+  }
+
+  .company-name {
+    order: 1;
+  }
+
+  .overview {
+    order: 2;
+  }
+
+  .project-apple {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 1em;
+  }
+
+  .nested-projects-apple {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 1em;
+  }
+}
+
+/* Additional Screen Sizes */
+
+/* Width at 400px and below */
+@media screen and (max-width: 400px) {
+  body {
+    margin: 30px 30px;
+    }
+
+  .introduction {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 1em;
+    padding: 0 10px;
+  }
+  
+  .company-name {
+    order: 1;
+  }
+  
+  .overview {
+    order: 2;
+  }
+  
+  .project-apple {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 1em;
+  }
+  
+  .nested-projects-apple {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 1em;
+  }
+
+  .boxed-apple {
+    box-shadow: var(--shadow);
+    background-color: #e2dddd;
+    padding: 0.5em;
+  }
+}
+
+/* --------------------- */
+/*        PROJECTS       */
+/*   hambuger.html   */
+/* --------------------- */

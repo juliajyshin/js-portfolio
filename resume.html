@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="chart.js"></script>
 
 </head>
 
@@ -67,52 +68,18 @@
         <section class="introduction">
             <div class="overview">
                 <h3>Web Languages</h3>
-                <ul>
-                   
-                        <!-- HTML Chart -->
-                        <figure class="chart" data-percent="75">
-                            <figcaption>HTML</figcaption>
-                            <img class="html" src="https://dl.dropboxusercontent.com/s/68gv23q4y5qyq52/html5.svg">
-                            <svg width="200" height="200">
-                                    <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)" />
-                            </svg>
-                        </figure>
-
-                        <!-- CSS Chart -->
-                        <figure class="chart" data-percent="75">
-                            <figcaption>CSS</figcaption>
-                            <img class="css" src="https://dl.dropboxusercontent.com/s/gftbpqje9h2jvlv/css3.svg">
-                            <svg width="200" height="200">
-                                <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)" />
-                            </svg>
-                        </figure>
-
-
-                        <!-- Javascript Chart -->
-                        <figure class="chart" data-percent="50">
-                            <figcaption>Javascript</figcaption>
-                            <img class="javascript" src="https://dl.dropboxusercontent.com/s/jsp3rsberc4q650/javascript.svg">
-                            <svg width="200" height="200">
-                                <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)" />
-                            </svg>
-                        </figure>
-
-                        <!-- Node.js Chart -->
-                        <figure class="chart" data-percent="25">
-                            <figcaption>Node</figcaption>
-                            <img class="node" src="https://dl.dropboxusercontent.com/s/v28zws1p38tjph2/node.png">
-                            <svg width="200" height="200">
-                                <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)" />
-                            </svg>
-                        </figure>
-              
-                    <p>https://codepen.io/kyledws/pen/Gvelt</p>
-                    <li>HTML5, CSS3, JavaScript, jQuery, Bootstrap, Node.js, MongoDB, MySQL, react, express</li>
-                </ul>
+                <div class="container-chart">
+                    <h1>I'm a dev, and these are my skills</h1>
+                    <div class="chart" data-percent="95">HTML</div>
+                    <div class="chart" data-percent="95">SCSS</div>
+                    <div class="chart" data-percent="70">jQuery</div>
+                    <div class="chart" data-percent="90">WP</div>
+                    <div class="chart" data-percent="110"> Making Tea</div>
+                </div>
             </div>
             <div class="company-name">
-                <h1>Avid Apple User</h1>
-                <p>*photo of mac computer & apple products*</p>
+                <h1>Life</h1>
+                <p>*bar graph of things i like to do in life with icons here*</p>
 
             </div>
         </section>
@@ -176,16 +143,25 @@
                             <p>Github</p>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="column">
+                            <img src="/images/tech-icons/bootstrap-tech-icon.png" class="tech-icon-image">
+                            <p>Bootstrap</p>
+                        </div>
+                        <div class="column">
+                            <img src="/images/tech-icons/jq-tech-icon.png" class="tech-icon-image">
+                            <p>jQuery</p>
+                        </div>
+                        <div class="column">
+                            <img src="/images/tech-icons/mongodb-tech-icon.png" class="tech-icon-image">
+                            <p>mongoDB</p>
+                        </div>
+                        <div class="column">
+                            <img src="/images/tech-icons/vscode-tech-icon.png" class="tech-icon-image">
+                            <p>VS Code</p>
+                        </div>
+                    </div>
                 </div>
-
-            </div>
-        </section>
-
-        <!-- Life -->
-        <section class="project-title">
-            <div>
-                <h3>Life</h3>
-                <p>*bar graph of things i like to do in life with icons here*</p>
 
             </div>
         </section>

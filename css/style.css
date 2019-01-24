@@ -514,5 +514,47 @@ body {
 
 /* --------------------- */
 /*        PROJECTS       */
-/*   hambuger.html   */
+/*    final-touch.html   */
 /* --------------------- */
+
+.introduction a {
+  text-decoration: underline;
+  color: var(--primary);
+  letter-spacing: 2px;
+}
+
+.fta {
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.project-fta {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1em;
+}
+
+/* nested projects */
+.nested-projects-fta {
+  display: grid;
+
+  grid-gap: 1em;
+}
+
+.nested-fta {
+  display: grid;
+  grid-gap: 0.5em;
+}
+
+.boxed-fta {
+  box-shadow: var(--shadow);
+  background-color: #e2dddd;
+  padding: 1em;
+}
+
+.fta-web {
+  text-align: center;
+  padding: 0.5em;
+}

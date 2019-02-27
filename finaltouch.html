@@ -8,7 +8,8 @@
     <link rel='shortcut icon' type='image/x-icon' href='favicon/favicon.ico' />
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/image-popup.js" defer></script>
 </head>
 
 <body>
@@ -44,10 +45,12 @@
                     <li>Aesthetics: layout, grid systems, color theory and typography</li>
                     <li>Prepare and execute prototypes of sites/features</li>
                     <li>Design and code visually appealing responsive emails in HTML, CSS and JavaScript</li>
-                    <li>Communicate both verbally and in writing with project managers & 3rd party backend developers</li>
+                    <li>Communicate both verbally and in writing with project managers & 3rd party backend developers
+                    </li>
                     <li>Design and maintain all web graphics as well as campaign creatives for digital marketing such
                         as email marketing, social media ads, social media content, etc.</li>
-                    <li><strong>Website: <a href="http://www.finaltouchapparel.com" target="_blank">www.finaltouchapparel.com</a></strong></li>
+                    <li><strong>Website: <a href="http://www.finaltouchapparel.com"
+                                target="_blank">www.finaltouchapparel.com</a></strong></li>
                 </ul>
             </div>
             <div class="company-name">
@@ -71,10 +74,12 @@
             <div class="box boxed-fta">
                 <div class="nested-fta">
                     <div class="box fta-web">
-                        <p class="fta">Landing Page with Rotating Carousal Banner</p><img src="images/finaltouch/banner-fta.png">
+                        <p class="fta">Landing Page with Rotating Carousal Banner</p><img
+                            src="images/finaltouch/banner-fta.png">
                     </div>
                     <div class="box fta-web">
-                        <p class="fta">Instagram Widget Implementation</p><img src="images/finaltouch/instagram-fta.png">
+                        <p class="fta">Instagram Widget Implementation</p><img
+                            src="images/finaltouch/instagram-fta.png">
                     </div>
 
 
@@ -82,21 +87,33 @@
             </div>
         </section>
 
-         <!-- Email Examples -->
-         <section class="project-title">
+        <!-- Email Examples -->
+        <section class="project-title">
             <div>
                 <h3>Custom HTML E-Mail Templates</h3>
             </div>
         </section>
         <section class="project-apple">
             <div class="box apple-watch">
-                <img src="images/finaltouch/fta-email1.png">
+                <img class="myImg" src="images/finaltouch/fta-email1.png" alt="Customized E-mail Templates">
             </div>
             <div class="box apple-watch">
-                <img src="images/finaltouch/fta-email2.png">
+                <img class="myImg" src="images/finaltouch/fta-email2.png" alt="Customized E-mail Templates">
             </div>
             <div class="box apple-watch">
-                <img src="images/finaltouch/fta-email3.png">
+                <img class="myImg" src="images/finaltouch/fta-email3.png" alt="Customized E-mail Templates">
+            </div>
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+                <!-- The Close Button -->
+                <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content" id="img01">
+
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption"></div>
             </div>
         </section>
 
@@ -111,7 +128,8 @@
             <div class="box boxed-fta">
                 <div class="nested-fta">
                     <div class="box fta-web">
-                        <p class="fta">Campaign Creative: Postcard (Photoshop)</p><img src="images/finaltouch/final-touch-creative-1.png">
+                        <p class="fta">Campaign Creative: Postcard (Photoshop)</p><img
+                            src="images/finaltouch/final-touch-creative-1.png">
                     </div>
 
                 </div>

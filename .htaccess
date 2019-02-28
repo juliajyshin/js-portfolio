@@ -1,0 +1,5 @@
+AuthName "This content is password protected. *Permission only granted upon request."
+AuthType Basic
+AuthUserFile /apple-ios12.html/.htpasswd
+AuthGroupFile /dev/null 
+require valid-user

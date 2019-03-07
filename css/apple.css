@@ -1,0 +1,132 @@
+/* --------------------- */
+/*        projects       */
+/*    apple-ios12.html   */
+/* --------------------- */
+
+
+.introduction a {
+  text-decoration: underline;
+  color: var(--primary);
+  letter-spacing: 2px;
+}
+
+h3 {
+    margin-top: 40px;
+}
+
+/* section grid layouts */
+
+.watch-apple {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+  }
+  
+  .masking-elements {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-gap: 1em;
+  }
+  
+  .nested-elements {
+    display: grid;
+    grid-gap: 0.5em;
+  }
+  
+  .box {
+    text-align: center;
+    padding: 0.5em 1em;
+  }
+
+  .box-bg {
+    box-shadow: var(--shadow);
+    background-color: #e2dddd;
+    padding: 1em;
+  }
+  
+  .subject {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+/* ....................... */
+/*       media query       */
+
+/* Width at 768px and below */
+@media screen and (max-width: 768px) {
+    body {
+      margin: 30px 30px;
+      }
+      .introduction {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 1em;
+        padding: 0 10px;
+      }
+    
+      .company-name {
+        order: 1;
+      }
+    
+      .overview {
+        order: 2;
+      }
+    
+      .project-apple {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 1em;
+      }
+    
+      .nested-projects-apple {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 1em;
+      }
+    }
+
+    /* Additional Screen Sizes */
+
+/* Width at 400px and below */
+@media screen and (max-width: 400px) {
+    body {
+      margin: 30px 30px;
+      }
+  
+    .introduction {
+      display: grid;
+      grid-template-columns: 100%;
+      grid-gap: 1em;
+      padding: 0 10px;
+    }
+    
+    .company-name {
+      order: 1;
+    }
+    
+    .overview {
+      order: 2;
+    }
+    
+    .project-apple {
+      display: grid;
+      grid-template-columns: 100%;
+      grid-gap: 1em;
+    }
+    
+    .nested-projects-apple {
+      display: grid;
+      grid-template-columns: 100%;
+      grid-gap: 1em;
+    }
+  
+    .boxed-apple {
+      box-shadow: var(--shadow);
+      background-color: #e2dddd;
+      padding: 0.5em;
+    }
+  }
+  
+    
